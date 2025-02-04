@@ -1,8 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&family=Single+Day&display=swap');
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'DM Sans', sans-serif;
 }
 /* 
 By default the space of an element will taken equal height/width and padding
 */
+
+body{
+  background-color: black;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}

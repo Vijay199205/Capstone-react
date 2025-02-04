@@ -1,11 +1,20 @@
 import React from 'react'
-import style from './NotFoundPage.module.css'
+import styles from './NotFoundPage.module.css';
+import { Link } from 'react-router-dom';
 
 function NotFoundPage() {
   return (
-    <div className={style.conatiner}>
-      <h1>404 Page Not Found</h1>
-      <p>Sorry, the page your looking is dosenot exsit</p>
+   
+
+    <div className={styles.container}>
+        <h1 className={styles.heading}> 404 </h1>
+        <p className={styles.text}>
+        Oops! Page Not found.
+        </p>
+        <p className={styles.subtext}>
+        The page your looking for might have been removed or had its name changed, or is temporay unavaialbe
+        </p>
+        <Link to="/" className={styles.link}>Go to HomePage</Link>
     </div>
   )
 }
